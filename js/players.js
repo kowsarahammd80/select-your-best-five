@@ -21,6 +21,7 @@ document.getElementById('first-btn').addEventListener('click', function () {
 
 })
 
+
 document.getElementById('secend-btn').addEventListener('click', function () {
 
   number++;
@@ -33,6 +34,7 @@ document.getElementById('secend-btn').addEventListener('click', function () {
   }
 
 })
+
 
 document.getElementById('thard-btn').addEventListener('click', function () {
 
@@ -48,6 +50,7 @@ document.getElementById('thard-btn').addEventListener('click', function () {
 
 })
 
+
 document.getElementById('forth-btn').addEventListener('click', function () {
 
   number++;
@@ -61,6 +64,7 @@ document.getElementById('forth-btn').addEventListener('click', function () {
 
 })
 
+
 document.getElementById('fifth-btn').addEventListener('click', function () {
 
   number++;
@@ -73,6 +77,7 @@ document.getElementById('fifth-btn').addEventListener('click', function () {
   }
 
 })
+
 
 document.getElementById('six-btn').addEventListener('click', function () {
 

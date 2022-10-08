@@ -5,9 +5,10 @@
 
 document.getElementById('butn-calculate').addEventListener('click', function(){
   let parPlayerCost = parPlayerBuddget();
-  let parPlayerBuddgetTotalAmount = parPlayerCost * 5;
+  let ol = document.getElementById('player-list');
+  let parPlayerBuddgetTotalAmount = parPlayerCost * ol.children.length;
 
-     let playerExpence = document.getElementById('expenses-toatl');
+  let playerExpence = document.getElementById('expenses-toatl');
     playerExpence.innerText = parPlayerBuddgetTotalAmount;
 
 })
